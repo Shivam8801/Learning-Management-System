@@ -1,0 +1,102 @@
+body{
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+.image-fluid{
+  background-image: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('/learn.jpg');
+  background-size: cover;   
+  height: 100vh;
+  margin-top: -100px;
+}
+
+
+.d-flex button{
+  color: #fff;
+  margin: 0px 10px;
+  
+}
+
+.d-flex button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.blockquote{
+  margin-top: 100px;
+  color: #fff;
+}
+
+.title{
+  font-size: 3em;
+}
+
+.tagline{
+  font-weight: 400;
+}
+
+.navbar-nav li{
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.row{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icons
+{
+  color: green;
+  padding: 1% 1%;
+}
+
+.icons:hover
+{
+  color: rgb(89, 196, 89);
+   
+}
+
+#testimonials
+{
+ 
+  text-align: center;
+  background-color: #f3b4ab;
+  color: #fff;
+}
+
+.test-image
+{
+  width: 10%;
+  border-radius: 200%;
+  margin: 20px;
+}
+
+
+.testimonials-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 30px 100px;
+}
+
+#footer
+{
+  padding: 2% 7%;
+  text-align: center;
+}
+
+#footer i{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#footer i:hover{
+  transform: scale(1.5);
+}
+
