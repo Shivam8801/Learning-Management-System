@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.set('view engine', 'ejs');
 
 // database connection
-const dbURI = 'mongodb+srv://shivam8801:shivam123@shivam-cluster.bzfoa.mongodb.net/userauth';
+const dbURI = 'YOUR_MONGODB_LINK';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true})
   .then((result) => app.listen(port))
   .catch((err) => console.log(err));
