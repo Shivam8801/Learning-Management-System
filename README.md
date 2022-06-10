@@ -9,7 +9,7 @@ Steps :
 5) in VS code, click on 'A' icon (Azure) and sign in with the same account.
 6) Open the main folder in which project folder is stored.
 7) Right click on project folder and select 'Deploy to Web App...'
-8) Select the same app name on Azure portal in the displayed pop up.
+8) Select the same app name in the displayed pop up.
 9) The app will auto open in new tab after deployment.
 10) Save the URL of app for further use.
 
